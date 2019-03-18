@@ -1,4 +1,5 @@
 ﻿# PythonExercise
 Python入门学习
 
-## 提交测试
+## exercise1
+获取输入，控制输出。

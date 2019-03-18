@@ -1,0 +1,31 @@
+Exercise 1
+Create a program that asks the user to enter their name and their age. 
+Print out a message addressed to them that tells them the year that they will turn 100 years old.
+
+Extras:
+1.Add on to the previous program by asking the user for another number and 
+printing out that many copies of the previous message. 
+(Hint: order of operations exists in Python)
+2.Print out that many copies of the previous message on separate lines. 
+(Hint: the string "\n is the same as pressing the ENTER button)
+
+Concepts for this exercise:
+
+1.Getting user input
+2.Manipulating strings (a few ways)
+
+练习1
+编写一个程序，要求用户输入他们的名字和年龄。
+打印一条信息，告诉用户将在某一年到达100岁。
+
+附件项：
+1.在原来的程序的基础上，增加要求用户输入另一个数字，并且将打印的信息按照这个数字的次数重复打印。
+2.重复在不同的行上打印输出前面的信息。
+
+练习理念：
+1.掌握获取用户输入的方法
+2.掌握多种字符串操作方法
+
+
+备注：
+原题来源于:https://www.practicepython.org/exercise/2014/01/29/01-character-input.html

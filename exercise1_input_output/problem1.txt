@@ -1,4 +1,4 @@
-Exercise 1
+Exercise 1.1
 Create a program that asks the user to enter their name and their age. 
 Print out a message addressed to them that tells them the year that they will turn 100 years old.
 
@@ -14,7 +14,7 @@ Concepts for this exercise:
 1.Getting user input
 2.Manipulating strings (a few ways)
 
-练习1
+练习1.1
 编写一个程序，要求用户输入他们的名字和年龄。
 打印一条信息，告诉用户将在某一年到达100岁。
 

@@ -21,3 +21,9 @@
 在列表开头加入数字0：[0, 6, 9, 11, 12, 19]
 列表最后3个数字的平均值为：14.0
 
+提示：
+1.while input break
+2.list sort
+3.list del
+4.list insert
+5.for list slice

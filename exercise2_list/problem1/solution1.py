@@ -10,7 +10,7 @@ while True:    #while循环判断条件为True，即为无限循环
 print("本次录入结果: " + str(numbers)) #打印出字符串，注意不是字符串形式要转换成字符串形式
 
 
-numbers.sort(reverse = True) #与顺序相反的顺序排列列表内元素，向sort()的方法传递参数(resverse = Ture)
+numbers.sort(reverse = True) #与顺序相反的顺序排列列表内元素，向sort()的方法传递参数(reverse = Ture)
 print("降序排序: " + str(numbers)) #打印出想要的字符串
 numbers.sort() #将列表numbers内的元素用sort()方法按顺序排序
 print("升序排序: " + str(numbers)) #打印出想要的字符串
@@ -27,7 +27,7 @@ print("在列表开头加入数字0: " + str(numbers)) #打印想要的字符串
 
 sum = 0 #设一个变量sum等于0
 for num in numbers[-3:]: #在切片[-3:](即后面三个元素)循环迭代
-    sum += num #sum等于num
-    sum = sum + num  #sum等于sum加切片num
+    sum += num 
+    #sum = sum + num  
 average = sum / 3 #求出平均值
 print("列表最后3个数字的平均值为: " + str(average)) #打印想要的字符串

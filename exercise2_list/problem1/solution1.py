@@ -27,7 +27,7 @@ print("在列表开头加入数字0: " + str(numbers)) #打印想要的字符串
 
 sum = 0 #设一个变量sum等于0
 for num in numbers[-3:]: #在切片[-3:](即后面三个元素)循环迭代
-    sum += num 
-    #sum = sum + num  
+    #sum += num 
+    sum = sum + num  #sum等于sum加num 
 average = sum / 3 #求出平均值
 print("列表最后3个数字的平均值为: " + str(average)) #打印想要的字符串

@@ -1,0 +1,24 @@
+exercise3.1
+要求按照指定格式输入年月日，反馈给用户当天为这一年的第几天。
+
+示例：
+输入年月日:2019-04-07
+这一天为2019年的第97天。
+
+提示：
+1.题中关于时间模块的使用方法
+from time import strptime
+
+today = "2019-04-07" #当天
+time_format = "%Y-%m-%d" #时间格式
+
+today_stime = strptime(today, time_format)#字符串格式时间转换成time格式时间
+
+print(today_stime.tm_year) #打印年
+print(type(today_stime.tm_year)) #<class 'int'>
+
+print(today_stime.tm_mon) #打印月
+print(type(today_stime.tm_mon)) #<class 'int'>
+
+print(today_stime.tm_mday) #打印日
+print(type(today_stime.tm_mday)) #<class 'int'>

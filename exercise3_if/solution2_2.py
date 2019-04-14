@@ -1,7 +1,7 @@
 def is_prime(number):
     """判断number是不是素数, 若是则返回True, 否则返回False"""
     flag = True #是素数标识
-    for i in range(2, number):  #让i在数列2到number循环迭代
+    for i in range(2, number):  #让i在数列2~number循环迭代
         if number % i == 0: #如果number除以i余数为0
             flag = False #不是素数标识
             break  #跳出循环

@@ -4,7 +4,7 @@ primes_list = [] #设置一个空列表，并储存到primes_list中
 
 for num in range(2, nums + 1): #让num在数列2~num+1中循环迭代
     is_prime = True #是素数就是真
-    for i in range(2, num): #i在数列num中循环迭代
+    for i in range(2, num): #i在数列2~num中循环迭代
         if num % i == 0:  #如果num除以i，余数为0
             is_prime = False #否则就是假
             break #跳出循环

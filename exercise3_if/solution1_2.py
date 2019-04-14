@@ -1,4 +1,4 @@
-from time import strptime #导入时间模板
+from time import strptime #导入模板
 
 time_format = "%Y-%m-%d"  #时间格式
 mdays = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31) #将每月的号数储存到mdays中

@@ -1,4 +1,4 @@
-from time import strptime #导入时间模板
+from time import strptime #导入模板
 
 time_format = "%Y-%m-%d" #时间格式
 
